@@ -90,7 +90,7 @@ playAgainBtn.addEventListener('click', function()
 })
 
 window.addEventListener('keydown', function(e){
-    if(e.keyCode >= 65 && e.keyCode <= 90)
+    if(e.keyCode >= 65 && e.keyCode <= 105)
     {
         // console.log(e.key);
         const letter = e.key;
