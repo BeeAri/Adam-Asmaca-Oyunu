@@ -13,7 +13,7 @@ let selectedWord = getRandomWord();
 
 function getRandomWord()
 {
-    const words = ["merkur", "venus","dunya","mars","jupiter","saturn", "uranus","neptun"];
+    const words = ["merkur", "venus","dunya","mars","jupıter","saturn", "uranus","neptun"];
     return words[Math.floor(Math.random() * words.length)];
 }
 
@@ -90,7 +90,7 @@ playAgainBtn.addEventListener('click', function()
 })
 
 window.addEventListener('keydown', function(e){
-    if(e.keyCode >= 65 && e.keyCode <= 105)
+    if(e.keyCode >= 65 && e.keyCode <= 90)
     {
         // console.log(e.key);
         const letter = e.key;
